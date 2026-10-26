@@ -5,7 +5,6 @@ import { check, sleep } from 'k6';
 const BASE_URL = __ENV.BASE_URL || 'https://www.saucedemo.com';
 
 export const options = {
-    // Keep the initial test deliberately small.
     vus: 1,
     iterations: 5,
 
