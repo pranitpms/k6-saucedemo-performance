@@ -1,0 +1,26 @@
+{
+  "name": "k6-saucedemo-performance",
+  "version": "1.0.0",
+  "description": "![k6](https://img.shields.io/badge/Performance%20Testing-k6-7D64FF)\r ![JavaScript](https://img.shields.io/badge/Language-JavaScript-F7DF1E)\r ![Status](https://img.shields.io/badge/Project-In%20Progress-orange)",
+  "homepage": "https://github.com/pranitpms/k6-saucedemo-performance#readme",
+  "bugs": {
+    "url": "https://github.com/pranitpms/k6-saucedemo-performance/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pranitpms/k6-saucedemo-performance.git"
+  },
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "k6": "^0.0.0"
+  }
+}

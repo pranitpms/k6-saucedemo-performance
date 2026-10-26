@@ -1,0 +1,150 @@
+{
+    "metrics": {
+        "http_req_waiting": {
+            "avg": 14.509979999999999,
+            "min": 9.9007,
+            "med": 14.2773,
+            "max": 18.8821,
+            "p(90)": 17.61786,
+            "p(95)": 18.24998
+        },
+        "http_req_sending": {
+            "max": 0.5573,
+            "p(90)": 0.54318,
+            "p(95)": 0.5502400000000001,
+            "avg": 0.21586,
+            "min": 0,
+            "med": 0
+        },
+        "iterations": {
+            "count": 5,
+            "rate": 0.9720548991722447
+        },
+        "http_reqs": {
+            "count": 5,
+            "rate": 0.9720548991722447
+        },
+        "http_req_receiving": {
+            "avg": 0.09458,
+            "min": 0,
+            "med": 0,
+            "max": 0.4729,
+            "p(90)": 0.28374000000000005,
+            "p(95)": 0.3783199999999999
+        },
+        "vus": {
+            "value": 1,
+            "min": 1,
+            "max": 1
+        },
+        "http_req_failed": {
+            "passes": 0,
+            "fails": 5,
+            "thresholds": {
+                "rate<0.01": false
+            },
+            "value": 0
+        },
+        "iteration_duration": {
+            "med": 1015.2414,
+            "max": 1082.7662,
+            "p(90)": 1057.42332,
+            "p(95)": 1070.09476,
+            "avg": 1028.74848,
+            "min": 1011.6743
+        },
+        "http_req_tls_handshaking": {
+            "med": 0,
+            "max": 36.4399,
+            "p(90)": 21.863940000000003,
+            "p(95)": 29.151919999999993,
+            "avg": 7.28798,
+            "min": 0
+        },
+        "http_req_duration": {
+            "avg": 14.820419999999999,
+            "min": 10.4227,
+            "med": 14.2773,
+            "max": 18.8821,
+            "p(90)": 18.02994,
+            "p(95)": 18.456020000000002,
+            "thresholds": {
+                "p(95)<2000": false
+            }
+        },
+        "http_req_blocked": {
+            "avg": 12.86346,
+            "min": 0,
+            "med": 0,
+            "max": 64.3173,
+            "p(90)": 38.59038000000001,
+            "p(95)": 51.45383999999999
+        },
+        "vus_max": {
+            "max": 1,
+            "value": 1,
+            "min": 1
+        },
+        "data_sent": {
+            "count": 1955,
+            "rate": 380.0734655763477
+        },
+        "checks": {
+            "passes": 15,
+            "fails": 0,
+            "thresholds": {
+                "rate>0.99": false
+            },
+            "value": 1
+        },
+        "http_req_duration{expected_response:true}": {
+            "avg": 14.820419999999999,
+            "min": 10.4227,
+            "med": 14.2773,
+            "max": 18.8821,
+            "p(90)": 18.02994,
+            "p(95)": 18.456020000000002
+        },
+        "data_received": {
+            "count": 13955,
+            "rate": 2713.005223589735
+        },
+        "http_req_connecting": {
+            "p(90)": 7.7181000000000015,
+            "p(95)": 10.290799999999997,
+            "avg": 2.5727,
+            "min": 0,
+            "med": 0,
+            "max": 12.8635
+        }
+    },
+    "root_group": {
+        "path": "",
+        "id": "d41d8cd98f00b204e9800998ecf8427e",
+        "groups": {},
+        "checks": {
+                "homepage returns HTTP 200": {
+                    "id": "89169e4cd714a91910e10045de330fb3",
+                    "passes": 5,
+                    "fails": 0,
+                    "name": "homepage returns HTTP 200",
+                    "path": "::homepage returns HTTP 200"
+                },
+                "homepage returns HTML": {
+                    "name": "homepage returns HTML",
+                    "path": "::homepage returns HTML",
+                    "id": "57ec19c94ef36876ee4d10e898f66cad",
+                    "passes": 5,
+                    "fails": 0
+                },
+                "homepage contains expected page content": {
+                    "name": "homepage contains expected page content",
+                    "path": "::homepage contains expected page content",
+                    "id": "e47309144b26b33c2102f51a93329929",
+                    "passes": 5,
+                    "fails": 0
+                }
+            },
+        "name": ""
+    }
+}
